@@ -1,7 +1,7 @@
 .center_div{
   width:25%;
   height:70vh;
-  background-color:#f4f4f4;
+  background-color:white ;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius:15px;
 }
@@ -58,6 +58,7 @@ button:hover{
 
 li{
   justify-content:center;
+  color:blueviolet;
 }
 
 ol{
@@ -71,10 +72,11 @@ ol li{
   min-height:40px;
   display: flex;
   align-items: center;
-  color:#8566aa;
+  color:crimson;
   text-transform: capitalize;
 }
 .todo_Style{
+  color:blueviolet;
   text-align: left;
  display:flex;
  flex-direction: row;
@@ -82,8 +84,12 @@ ol li{
  text-transform: capitalize;
  /* justify-content:center; */
 }
+.icon{
+  color:black;
+}
 .todo_Style:hover{
  font-size: 70px;
+ color:red;
 }
 .icon:hover{
 background-color:red;
